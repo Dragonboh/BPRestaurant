@@ -17,6 +17,7 @@
 		849F49692CC02EF1005F677E /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 849F49682CC02EF1005F677E /* menu.json */; };
 		849F496B2CC043D9005F677E /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F496A2CC043D9005F677E /* ListView.swift */; };
 		849F496D2CC04523005F677E /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F496C2CC04523005F677E /* ItemRow.swift */; };
+		849F496F2CC11AC8005F677E /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849F496E2CC11AC8005F677E /* ItemDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		849F49682CC02EF1005F677E /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		849F496A2CC043D9005F677E /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		849F496C2CC04523005F677E /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		849F496E2CC11AC8005F677E /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				849F495A2CC02E27005F677E /* Preview Content */,
 				849F496A2CC043D9005F677E /* ListView.swift */,
 				849F496C2CC04523005F677E /* ItemRow.swift */,
+				849F496E2CC11AC8005F677E /* ItemDetail.swift */,
 			);
 			path = BPRestaurant;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				849F496B2CC043D9005F677E /* ListView.swift in Sources */,
 				849F496D2CC04523005F677E /* ItemRow.swift in Sources */,
 				849F49662CC02E9A005F677E /* Order.swift in Sources */,
+				849F496F2CC11AC8005F677E /* ItemDetail.swift in Sources */,
 				849F49632CC02E49005F677E /* Helper.swift in Sources */,
 				849F49672CC02E9A005F677E /* Menu.swift in Sources */,
 			);
