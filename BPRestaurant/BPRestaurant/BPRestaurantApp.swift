@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct BPRestaurantApp: App {
+    @StateObject var order = Order()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
+                .environmentObject(order)
         }
     }
 }
